@@ -55,7 +55,7 @@ public class Server extends Resource implements Serializable {
 	
 	/**
 	 * Sets the address of the server.
-	 * @param name The new address of the server.
+	 * @param address The new address of the server.
 	 */
 	public void
 	setAddress(String address) {
@@ -72,7 +72,7 @@ public class Server extends Resource implements Serializable {
 	
 	/**
 	 * Sets the port to which to connect.
-	 * @param name The new port to which to connect.
+	 * @param port The new port to which to connect.
 	 */
 	public void
 	setPort(int port) {

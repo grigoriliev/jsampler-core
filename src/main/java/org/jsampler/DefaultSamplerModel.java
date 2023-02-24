@@ -731,7 +731,7 @@ public class DefaultSamplerModel implements SamplerModel {
 	 * Gets the model of the sampler channel in the specified position.
 	 * @param index The position of the channel to return.
 	 * @return The model of the specified sampler channel.
-	 * @see #getchannelCount
+	 * @see #getChannelCount
 	 */
 	@Override
 	public SamplerChannelModel

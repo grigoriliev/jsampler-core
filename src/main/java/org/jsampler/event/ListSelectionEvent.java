@@ -47,7 +47,6 @@ import java.util.EventObject;
  *
  * @author Hans Muller
  * @author Ray Ryan
- * @see ListSelectionModel
  */
 public class ListSelectionEvent extends EventObject
 {

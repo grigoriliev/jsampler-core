@@ -178,20 +178,20 @@ public interface JSChannelsPane<C extends JSChannel> {
 	/**
 	 * Determines whether the channel list UI should be automatically updated
 	 * when channel is added/removed. The default value is <code>true</code>.
-	 * @see updateChannelListUI
+	 * @see #updateChannelListUI
 	 */
 	public boolean getAutoUpdate();
 	
 	/**
 	 * Determines whether the channel list UI should be automatically updated
 	 * when channel is added/removed.
-	 * @see updateChannelListUI
+	 * @see #updateChannelListUI
 	 */
 	public void setAutoUpdate(boolean b);
 	
 	/**
 	 * Updates the channel list UI.
-	 * @see setAutoUpdate
+	 * @see #setAutoUpdate
 	 */
 	public void updateChannelListUI();
 }
