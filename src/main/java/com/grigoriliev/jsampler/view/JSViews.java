@@ -22,6 +22,7 @@
 
 package com.grigoriliev.jsampler.view;
 
+import java.io.InputStream;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
@@ -142,7 +143,13 @@ public class JSViews {
 		viewEntries.removeAllElements();
 		
 		try {
-			Manifest m = new Manifest(JSViews.class.getResourceAsStream("/views.mf"));
+			InputStream is = JSViews.class.getResourceAsStream("/views.mf");
+			if (is == null) {
+				is = Thread.currentThread().getContextClassLoader().getResourceAsStream(
+					"views.mf"
+				);
+			}
+			Manifest m = new Manifest(is);
 			String s = m.getMainAttributes().getValue("JS-Views");
 			if(s == null) {
 				CC.getLogger().warning("Missing manifest attribute: JS-Views");

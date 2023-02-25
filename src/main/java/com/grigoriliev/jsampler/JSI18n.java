@@ -22,6 +22,7 @@
 package com.grigoriliev.jsampler;
 
 import java.util.Locale;
+import java.util.ResourceBundle;
 
 import com.grigoriliev.jsampler.juife.I18n;
 
@@ -45,7 +46,12 @@ public class JSI18n extends I18n {
 		//setMenusBundle("com.grigoriliev.jsampler.langprops.MenuLabelsBundle");
 		setMessagesBundle("com.grigoriliev.jsampler.langprops.MessagesBundle");
 	}
-	
+
+	@Override
+	protected ResourceBundle getBundle(String baseName, Locale locale) {
+		return ResourceBundle.getBundle(baseName, locale, JSI18n.class.getModule());
+	}
+
 	/**
 	 * Gets all available locales.
 	 * @return All available locales.
