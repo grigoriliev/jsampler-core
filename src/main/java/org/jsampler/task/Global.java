@@ -26,11 +26,11 @@ import org.jsampler.CC;
 import org.jsampler.EffectChain;
 import org.jsampler.SamplerModel;
 
-import org.linuxsampler.lscp.Effect;
-import org.linuxsampler.lscp.EffectChainInfo;
-import org.linuxsampler.lscp.Instrument;
-import org.linuxsampler.lscp.SamplerEngine;
-import org.linuxsampler.lscp.ServerInfo;
+import com.grigoriliev.jsampler.jlscp.Effect;
+import com.grigoriliev.jsampler.jlscp.EffectChainInfo;
+import com.grigoriliev.jsampler.jlscp.Instrument;
+import com.grigoriliev.jsampler.jlscp.SamplerEngine;
+import com.grigoriliev.jsampler.jlscp.ServerInfo;
 
 
 import static org.jsampler.JSI18n.i18n;

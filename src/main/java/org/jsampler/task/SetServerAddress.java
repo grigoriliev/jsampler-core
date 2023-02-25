@@ -27,7 +27,7 @@ import org.jsampler.CC;
 /**
  * This task sets the Linux Sampler address.
  * This needs to be done out of the event-dispatching thread due to
- * the synchronization of <code>org.linuxsampler.lscp.Client</code> methods
+ * the synchronization of <code>com.grigoriliev.jsampler.jlscp.Client</code> methods
  * (setting the server address and port can be time consuming).
  * @author Grigor Iliev
  */

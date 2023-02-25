@@ -25,7 +25,7 @@ import org.jsampler.CC;
 import org.jsampler.SamplerChannelModel;
 import org.jsampler.SamplerModel;
 
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
 import com.grigoriliev.jsampler.juife.PDUtils;
 import com.grigoriliev.jsampler.juife.Task;

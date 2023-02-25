@@ -45,11 +45,11 @@ import org.jsampler.task.Channel.SetVolume;
 import org.jsampler.task.Channel.UpdateFxSendInfo;
 import org.jsampler.task.DuplicateChannels;
 
-import org.linuxsampler.lscp.FxSend;
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
-import org.linuxsampler.lscp.event.MidiDataEvent;
-import org.linuxsampler.lscp.event.MidiDataListener;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataEvent;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataListener;
 
 
 /**

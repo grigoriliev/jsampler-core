@@ -28,8 +28,8 @@ import org.jsampler.JSPrefs;
 import org.jsampler.SamplerChannelModel;
 import org.jsampler.SamplerModel;
 
-import org.linuxsampler.lscp.FxSend;
-import org.linuxsampler.lscp.event.MidiDataEvent;
+import com.grigoriliev.jsampler.jlscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataEvent;
 
 import static org.jsampler.JSI18n.i18n;
 import static org.jsampler.JSPrefs.*;

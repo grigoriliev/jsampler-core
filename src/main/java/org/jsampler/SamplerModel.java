@@ -26,7 +26,7 @@ import org.jsampler.event.MidiDeviceListListener;
 import org.jsampler.event.SamplerChannelListListener;
 import org.jsampler.event.SamplerListener;
 
-import org.linuxsampler.lscp.*;
+import com.grigoriliev.jsampler.jlscp.*;
 
 
 /**

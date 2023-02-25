@@ -23,13 +23,13 @@ package org.jsampler.task;
 
 import org.jsampler.CC;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
-import org.linuxsampler.lscp.DbSearchQuery;
-import org.linuxsampler.lscp.ScanJobInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbSearchQuery;
+import com.grigoriliev.jsampler.jlscp.ScanJobInfo;
 
 import static org.jsampler.JSI18n.i18n;
-import static org.linuxsampler.lscp.Client.ScanMode;
+import static com.grigoriliev.jsampler.jlscp.Client.ScanMode;
 
 /**
  * Provides the instruments database specific tasks.

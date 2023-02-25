@@ -20,13 +20,13 @@
  */
 package org.jsampler.task;
 
-import org.linuxsampler.lscp.BoolParameter;
-import org.linuxsampler.lscp.MidiInputDevice;
-import org.linuxsampler.lscp.MidiInputDriver;
-import org.linuxsampler.lscp.MidiInstrumentEntry;
-import org.linuxsampler.lscp.MidiInstrumentInfo;
-import org.linuxsampler.lscp.MidiInstrumentMapInfo;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.BoolParameter;
+import com.grigoriliev.jsampler.jlscp.MidiInputDevice;
+import com.grigoriliev.jsampler.jlscp.MidiInputDriver;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentEntry;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentMapInfo;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 import org.jsampler.CC;
 import org.jsampler.MidiDeviceModel;

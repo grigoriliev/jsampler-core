@@ -32,7 +32,7 @@ import org.w3c.dom.NodeList;
  *
  * @author Grigor Iliev
  */
-public class OrchestraInstrument extends Resource implements org.linuxsampler.lscp.Instrument {
+public class OrchestraInstrument extends Resource implements com.grigoriliev.jsampler.jlscp.Instrument {
 	private String path = null;
 	private int instrumentIndex = 0;
 	private String engine = "GIG";

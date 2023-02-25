@@ -21,7 +21,7 @@
 
 package org.jsampler.event;
 
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 
 /**

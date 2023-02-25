@@ -21,7 +21,7 @@
 
 package org.jsampler.event;
 
-import org.linuxsampler.lscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.FxSend;
 
 /**
  * A semantic event which indicates effect sends changes.

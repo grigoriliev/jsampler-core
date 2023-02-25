@@ -24,11 +24,11 @@ package org.jsampler;
 import org.jsampler.event.EffectSendsListener;
 import org.jsampler.event.SamplerChannelListener;
 
-import org.linuxsampler.lscp.FxSend;
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
-import org.linuxsampler.lscp.event.MidiDataEvent;
-import org.linuxsampler.lscp.event.MidiDataListener;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataEvent;
+import com.grigoriliev.jsampler.jlscp.event.MidiDataListener;
 
 /**
  * A data model representing a sampler channel.

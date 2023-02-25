@@ -22,7 +22,7 @@
 
 package org.jsampler.event;
 
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
 
 /**

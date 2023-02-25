@@ -27,7 +27,7 @@ import com.grigoriliev.jsampler.juife.PDUtils;
 import org.jsampler.event.EffectInstanceEvent;
 import org.jsampler.event.EffectInstanceListener;
 import org.jsampler.task.Audio;
-import org.linuxsampler.lscp.EffectInstanceInfo;
+import com.grigoriliev.jsampler.jlscp.EffectInstanceInfo;
 
 /**
  *

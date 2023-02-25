@@ -29,8 +29,8 @@ import com.grigoriliev.jsampler.juife.PDUtils;
 import org.jsampler.event.MidiInstrumentMapEvent;
 import org.jsampler.event.MidiInstrumentMapListener;
 
-import org.linuxsampler.lscp.MidiInstrumentEntry;
-import org.linuxsampler.lscp.MidiInstrumentMapInfo;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentEntry;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentMapInfo;
 
 
 /**

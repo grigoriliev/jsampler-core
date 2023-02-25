@@ -23,7 +23,7 @@ package org.jsampler.event;
 
 import org.jsampler.MidiInstrument;
 
-import org.linuxsampler.lscp.MidiInstrumentEntry;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentEntry;
 
 
 /**

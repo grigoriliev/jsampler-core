@@ -29,7 +29,7 @@ import com.grigoriliev.jsampler.juife.AbstractTask;
 import org.jsampler.CC;
 import org.jsampler.HF;
 
-import org.linuxsampler.lscp.LSException;
+import com.grigoriliev.jsampler.jlscp.LSException;
 
 import static org.jsampler.JSI18n.i18n;
 

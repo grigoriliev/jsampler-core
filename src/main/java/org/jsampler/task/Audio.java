@@ -29,12 +29,12 @@ import org.jsampler.EffectChain;
 import org.jsampler.SamplerChannelModel;
 import org.jsampler.SamplerModel;
 
-import org.linuxsampler.lscp.AudioOutputDevice;
-import org.linuxsampler.lscp.AudioOutputDriver;
-import org.linuxsampler.lscp.EffectChainInfo;
-import org.linuxsampler.lscp.EffectInstanceInfo;
-import org.linuxsampler.lscp.Effect;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDevice;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDriver;
+import com.grigoriliev.jsampler.jlscp.EffectChainInfo;
+import com.grigoriliev.jsampler.jlscp.EffectInstanceInfo;
+import com.grigoriliev.jsampler.jlscp.Effect;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 import static org.jsampler.JSI18n.i18n;
 

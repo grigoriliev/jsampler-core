@@ -25,8 +25,8 @@ import org.jsampler.CC;
 
 import org.jsampler.view.JSChannel;
 
-import org.linuxsampler.lscp.Client;
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.Client;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
 import static org.jsampler.JSI18n.i18n;
 

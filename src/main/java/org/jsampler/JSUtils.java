@@ -31,15 +31,15 @@ import java.util.zip.GZIPOutputStream;
 import org.jsampler.view.JSChannel;
 import org.jsampler.view.JSChannelsPane;
 
-import org.linuxsampler.lscp.AudioOutputChannel;
-import org.linuxsampler.lscp.AudioOutputDevice;
-import org.linuxsampler.lscp.Client;
-import org.linuxsampler.lscp.EffectParameter;
-import org.linuxsampler.lscp.FxSend;
-import org.linuxsampler.lscp.MidiInputDevice;
-import org.linuxsampler.lscp.MidiPort;
-import org.linuxsampler.lscp.Parameter;
-import org.linuxsampler.lscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.AudioOutputChannel;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDevice;
+import com.grigoriliev.jsampler.jlscp.Client;
+import com.grigoriliev.jsampler.jlscp.EffectParameter;
+import com.grigoriliev.jsampler.jlscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.MidiInputDevice;
+import com.grigoriliev.jsampler.jlscp.MidiPort;
+import com.grigoriliev.jsampler.jlscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

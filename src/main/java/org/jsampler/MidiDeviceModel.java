@@ -21,8 +21,8 @@
 
 package org.jsampler;
 
-import org.linuxsampler.lscp.MidiInputDevice;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.MidiInputDevice;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 import org.jsampler.event.MidiDeviceListener;
 

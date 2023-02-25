@@ -22,7 +22,7 @@ package org.jsampler;
 
 import java.util.ArrayList;
 
-import org.linuxsampler.lscp.Effect;
+import com.grigoriliev.jsampler.jlscp.Effect;
 
 /**
  * TODO: The set of available internal effects can change at runtime.

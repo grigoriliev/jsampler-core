@@ -25,7 +25,7 @@ import java.util.Vector;
 
 import com.grigoriliev.jsampler.juife.PDUtils;
 
-import org.linuxsampler.lscp.MidiInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.MidiInstrumentInfo;
 
 import org.jsampler.event.MidiInstrumentEvent;
 import org.jsampler.event.MidiInstrumentListener;

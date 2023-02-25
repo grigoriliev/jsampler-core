@@ -27,8 +27,8 @@ import java.io.FileOutputStream;
 import java.text.NumberFormat;
 import java.util.logging.Level;
 
-import org.linuxsampler.lscp.LSException;
-import org.linuxsampler.lscp.LscpException;
+import com.grigoriliev.jsampler.jlscp.LSException;
+import com.grigoriliev.jsampler.jlscp.LscpException;
 
 import static org.jsampler.JSI18n.i18n;
 

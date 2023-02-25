@@ -59,10 +59,10 @@ import org.jsampler.view.JSMainFrame;
 import org.jsampler.view.JSProgress;
 import org.jsampler.view.JSViewConfig;
 
-import org.linuxsampler.lscp.Client;
-import org.linuxsampler.lscp.FxSend;
+import com.grigoriliev.jsampler.jlscp.Client;
+import com.grigoriliev.jsampler.jlscp.FxSend;
 
-import org.linuxsampler.lscp.event.*;
+import com.grigoriliev.jsampler.jlscp.event.*;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -237,8 +237,8 @@ public class CC {
 		handler.setLevel(Level.FINE);
 		getLogger().addHandler(handler);
 		getLogger().setLevel(Level.FINE);
-		Logger.getLogger("org.linuxsampler.lscp").setLevel(Level.FINE);
-		Logger.getLogger("org.linuxsampler.lscp").addHandler(handler);
+		Logger.getLogger("com.grigoriliev.jsampler.jlscp").setLevel(Level.FINE);
+		Logger.getLogger("com.grigoriliev.jsampler.jlscp").addHandler(handler);
 		
 		// Flushing logs on every second
 		timer.schedule(new java.util.TimerTask() {

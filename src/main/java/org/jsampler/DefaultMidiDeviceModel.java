@@ -30,8 +30,8 @@ import org.jsampler.event.MidiDeviceListener;
 
 import org.jsampler.task.Midi;
 
-import org.linuxsampler.lscp.MidiInputDevice;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.MidiInputDevice;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 
 /**

@@ -23,9 +23,9 @@ package org.jsampler;
 
 import org.jsampler.event.AudioDeviceListener;
 
-import org.linuxsampler.lscp.AudioOutputDevice;
-import org.linuxsampler.lscp.Effect;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDevice;
+import com.grigoriliev.jsampler.jlscp.Effect;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 
 /**

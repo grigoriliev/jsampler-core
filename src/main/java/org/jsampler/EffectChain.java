@@ -27,8 +27,8 @@ import com.grigoriliev.jsampler.juife.PDUtils;
 
 import org.jsampler.event.EffectChainEvent;
 import org.jsampler.event.EffectChainListener;
-import org.linuxsampler.lscp.EffectChainInfo;
-import org.linuxsampler.lscp.EffectInstanceInfo;
+import com.grigoriliev.jsampler.jlscp.EffectChainInfo;
+import com.grigoriliev.jsampler.jlscp.EffectInstanceInfo;
 
 
 /**

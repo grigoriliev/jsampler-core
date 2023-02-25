@@ -44,7 +44,7 @@ import org.jsampler.task.Channel;
 import org.jsampler.task.Global;
 import org.jsampler.task.Midi;
 
-import org.linuxsampler.lscp.*;
+import com.grigoriliev.jsampler.jlscp.*;
 
 
 /**
