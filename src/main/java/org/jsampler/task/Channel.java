@@ -21,7 +21,7 @@
 
 package org.jsampler.task;
 
-import net.sf.juife.Task;
+import com.grigoriliev.jsampler.juife.Task;
 
 import org.jsampler.CC;
 import org.jsampler.JSPrefs;

@@ -30,7 +30,7 @@ import java.util.jar.Manifest;
 
 import java.util.logging.Level;
 
-import net.sf.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.PDUtils;
 
 import org.jsampler.CC;
 import org.jsampler.HF;

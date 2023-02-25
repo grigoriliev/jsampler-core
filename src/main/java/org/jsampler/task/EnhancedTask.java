@@ -24,7 +24,7 @@ package org.jsampler.task;
 import java.util.Date;
 import java.util.logging.Level;
 
-import net.sf.juife.AbstractTask;
+import com.grigoriliev.jsampler.juife.AbstractTask;
 
 import org.jsampler.CC;
 import org.jsampler.HF;

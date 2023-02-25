@@ -23,7 +23,7 @@ package org.jsampler;
 
 import java.util.Vector;
 
-import net.sf.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.PDUtils;
 
 import org.linuxsampler.lscp.MidiInstrumentInfo;
 

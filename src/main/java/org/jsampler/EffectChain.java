@@ -23,7 +23,7 @@ package org.jsampler;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import net.sf.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.PDUtils;
 
 import org.jsampler.event.EffectChainEvent;
 import org.jsampler.event.EffectChainListener;

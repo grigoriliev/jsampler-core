@@ -23,10 +23,10 @@ package org.jsampler;
 
 import java.util.Vector;
 
-import net.sf.juife.event.GenericEvent;
-import net.sf.juife.event.GenericListener;
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.event.GenericEvent;
+import com.grigoriliev.jsampler.juife.event.GenericListener;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
 
 import org.jsampler.task.InstrumentsDb.FindLostInstrumentFiles;
 

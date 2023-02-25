@@ -21,9 +21,9 @@
 
 package org.jsampler;
 
-import net.sf.juife.PDUtils;
-import net.sf.juife.event.GenericEvent;
-import net.sf.juife.event.GenericListener;
+import com.grigoriliev.jsampler.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.event.GenericEvent;
+import com.grigoriliev.jsampler.juife.event.GenericListener;
 
 import org.jsampler.view.JSViews;
 

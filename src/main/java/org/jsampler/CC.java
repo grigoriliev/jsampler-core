@@ -36,16 +36,16 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 import java.util.logging.StreamHandler;
 
-import net.sf.juife.PDUtils;
-import net.sf.juife.Task;
-import net.sf.juife.TaskQueue;
+import com.grigoriliev.jsampler.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.Task;
+import com.grigoriliev.jsampler.juife.TaskQueue;
 
-import net.sf.juife.event.GenericEvent;
-import net.sf.juife.event.GenericListener;
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
-import net.sf.juife.event.TaskQueueEvent;
-import net.sf.juife.event.TaskQueueListener;
+import com.grigoriliev.jsampler.juife.event.GenericEvent;
+import com.grigoriliev.jsampler.juife.event.GenericListener;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.event.TaskQueueEvent;
+import com.grigoriliev.jsampler.juife.event.TaskQueueListener;
 
 import org.jsampler.event.ListEvent;
 import org.jsampler.event.ListListener;

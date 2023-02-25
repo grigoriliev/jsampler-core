@@ -27,8 +27,8 @@ import org.jsampler.SamplerModel;
 
 import org.linuxsampler.lscp.SamplerChannel;
 
-import net.sf.juife.PDUtils;
-import net.sf.juife.Task;
+import com.grigoriliev.jsampler.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.Task;
 
 import static org.jsampler.JSI18n.i18n;
 

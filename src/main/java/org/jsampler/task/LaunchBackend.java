@@ -21,7 +21,7 @@
 
 package org.jsampler.task;
 
-import net.sf.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.PDUtils;
 
 import org.jsampler.CC;
 

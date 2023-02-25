@@ -25,10 +25,10 @@ import java.util.Vector;
 
 import java.util.logging.Level;
 
-import net.sf.juife.PDUtils;
-import net.sf.juife.Task;
-import net.sf.juife.event.TaskEvent;
-import net.sf.juife.event.TaskListener;
+import com.grigoriliev.jsampler.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.Task;
+import com.grigoriliev.jsampler.juife.event.TaskEvent;
+import com.grigoriliev.jsampler.juife.event.TaskListener;
 
 import org.jsampler.event.ListEvent;
 import org.jsampler.event.ListListener;

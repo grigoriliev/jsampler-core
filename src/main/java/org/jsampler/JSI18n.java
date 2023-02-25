@@ -26,7 +26,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 
-import net.sf.juife.I18n;
+import com.grigoriliev.jsampler.juife.I18n;
 
 
 /**

@@ -23,7 +23,7 @@ package org.jsampler;
 
 import java.util.ArrayList;
 
-import net.sf.juife.PDUtils;
+import com.grigoriliev.jsampler.juife.PDUtils;
 
 import org.jsampler.event.AudioDeviceEvent;
 import org.jsampler.event.AudioDeviceListener;
